@@ -11,6 +11,7 @@ public class DemoClass {
 
     static {
         System.out.println(DemoClass.class);
+        System.out.println(appName);
     }
 
     public String getAppName() {
