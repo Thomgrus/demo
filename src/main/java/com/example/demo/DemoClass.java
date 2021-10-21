@@ -11,6 +11,9 @@ public class DemoClass {
     @Value("${spring.application.name}")
     private String appName;
 
+    @Value("${demo.target}')
+    private String demoTarget;
+
     static {
         System.out.println(DemoClass.class);
     }
@@ -26,6 +29,10 @@ public class DemoClass {
 
     public String sayHello(String name) {
         return "Hello %s!".formatted(name);
+    }
+
+    public String getDemoTarget() {
+        return demoTarget;
     }
 
 }
