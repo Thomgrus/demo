@@ -11,7 +11,7 @@ public class DemoClass {
     @Value("${spring.application.name}")
     private String appName;
 
-    @Value("${demo.target:-none}")
+    @Value("${demo.target:none}")
     private String demoTarget;
 
     static {
