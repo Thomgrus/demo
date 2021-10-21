@@ -16,4 +16,8 @@ class DemoClassTests {
         Assertions.assertEquals("Hello Thomas!", demoClass.sayHello("Thomas"));
     }
 
+    @Test
+    void defaultDemoTargetIsNone() {
+        Assertions.assertEquals("none", demoClass.getDemoTarget());
+    }
 }
