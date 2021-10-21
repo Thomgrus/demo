@@ -20,4 +20,10 @@ class DemoClassTests {
     void defaultDemoTargetIsNone() {
         Assertions.assertEquals("none", demoClass.getDemoTarget());
     }
+
+    @Test
+    void appNameIsDemo() {
+        Assertions.assertEquals("demo", demoClass.getAppName());
+    }
+
 }
