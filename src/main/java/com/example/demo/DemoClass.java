@@ -11,7 +11,10 @@ public class DemoClass {
 
     static {
         System.out.println(DemoClass.class);
-        System.out.println(appName);
+    }
+
+    {
+        System.out.println("Demo class with App Name set to %s".formatted(appName));
     }
 
     public String getAppName() {
