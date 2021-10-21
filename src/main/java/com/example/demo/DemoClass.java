@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class DemoClass {
 
     static {
-        System.out.println(DemClass.class);
+        System.out.println(DemoClass.class);
     }
 
 }
